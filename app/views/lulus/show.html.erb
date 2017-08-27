@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @lulu.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @lulu.description %>
+</p>
+
+<%= link_to 'Edit', edit_lulu_path(@lulu) %> |
+<%= link_to 'Back', lulus_path %>

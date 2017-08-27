@@ -1,0 +1,2 @@
+class Lulu < ApplicationRecord
+end
